@@ -6,13 +6,11 @@ void compareMarks(string, int, string, int);
 void printMenu();
 int main()
 {
-
+float choice,matricMarksStd1,matricMarksStd2,interMarksStd1,interMarksStd2,ecatMarksStd2,ecatMarksStd1;
+	string nameStd1,nameStd2;
 	
 while(true)
 {
-	
-	float choice,matricMarksStd1,matricMarksStd2,interMarksStd1,interMarksStd2,ecatMarksStd2,ecatMarksStd1;
-	string nameStd1,nameStd2;
    printMenu();
    cout<<"Your choice: ";
 cin>> choice;
